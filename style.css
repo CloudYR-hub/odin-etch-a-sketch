@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    height: 760px;
+    background-color: rgba(160, 157, 157, 0.808);
+    border-radius: 16px;
+    gap: 5px;
+}
+.box{
+    background-color: black;
+    height: 25px;
+    width: 55px;
+}
