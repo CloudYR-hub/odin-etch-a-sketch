@@ -1,14 +1,24 @@
+body{
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+}
 .container{
+    width: 650px;
+    height: 650px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
-    width: 960px;
-    height: 760px;
-    background-color: rgba(160, 157, 157, 0.808);
-    border-radius: 16px;
-    gap: 5px;
 }
 .box{
-    background-color: black;
-    height: 25px;
-    width: 55px;
+    box-sizing:border-box;
+    background-color: white;
+    border:solid;
+    border-width: thin;
+}
+.background{
+    background-color: red;
+    padding: 15px;
 }
